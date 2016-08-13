@@ -2563,7 +2563,7 @@ static struct branch_clk gcc_oxili_gfx3d_clk = {
 	.c = {
 		.dbg_name = "gcc_oxili_gfx3d_clk",
 		.parent = &gfx3d_clk_src.c,
-		VDD_DIG_FMAX_MAP5(LOWER, 300000000, LOW, 366670000,
+		VDD_DIG_FMAX_MAP5(LOWER, 80000000, LOW, 366670000,
 				NOMINAL, 432000000, NOM_PLUS, 480000000,
 				HIGH, 600000000),
 		.ops = &clk_ops_branch,
