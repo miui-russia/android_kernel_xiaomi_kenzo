@@ -26,7 +26,7 @@
 #define CLUSTER_PLUG_MAJOR_VERSION	2
 #define CLUSTER_PLUG_MINOR_VERSION	0
 
-#define DEF_LOAD_THRESH_DOWN		20
+#define DEF_LOAD_THRESH_DOWN		10
 #define DEF_LOAD_THRESH_UP		80
 #define DEF_SAMPLING_MS			50
 #define DEF_VOTE_THRESHOLD		3
@@ -35,7 +35,7 @@
 #define N_LITTLE_CPUS			4
 
 #define LITTLE_CPU_ID_START		0
-#define BIG_CPU_ID_START		2
+#define BIG_CPU_ID_START		4
 
 static DEFINE_MUTEX(cluster_plug_parameters_mutex);
 static struct delayed_work cluster_plug_work;
